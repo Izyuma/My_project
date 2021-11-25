@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS TOUR
+(
+    ID         INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    NAME       VARCHAR(14),
+    SHOPPING   VARCHAR(14),
+    EXCURSION  VARCHAR(14),
+    RELAX      VARCHAR(14)
+);
+
+COMMIT;
+
+INSERT INTO TOUR (NAME, SHOPPING, EXCURSION, RELAX) VALUES ("name1", "shopping1", "excursion1", "relax1");
+INSERT INTO TOUR (NAME, SHOPPING, EXCURSION, RELAX) VALUES ("name2", "shopping2", "excursion2", "relax2");
+INSERT INTO TOUR (NAME, SHOPPING, EXCURSION, RELAX) VALUES ("name3", "shopping3", "excursion3", "relax3");
+INSERT INTO TOUR (NAME, SHOPPING, EXCURSION, RELAX) VALUES ("name4", "shopping4", "excursion4", "relax4");
+
+
